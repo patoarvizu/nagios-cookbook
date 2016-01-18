@@ -1,0 +1,22 @@
+{
+  "name": "nagios-server",
+  "description": "Beanstock Nagios server role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "chef_type": "role",
+  "run_list": [
+    "role[common]",
+    "recipe[nagios::client]",
+    "recipe[nagios::server]",
+    "recipe[chef-client::config]",
+    "recipe[chef-client::cron]"
+  ],
+  "env_run_lists": {
+
+  }
+}

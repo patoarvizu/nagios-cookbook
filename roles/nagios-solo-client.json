@@ -1,0 +1,24 @@
+{
+  "name": "nagios-solo-client",
+  "description": "Beanstock Nagios solo client role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "chef_type": "role",
+  "run_list": [
+    "role[common]",
+    "role[nagios-client]",
+    "recipe[nagios::solo_client]",
+    "recipe[nagios::aws_checks]",
+    "recipe[nagios::kafka_jmx_checks]",
+    "recipe[chef-client::config]",
+    "recipe[chef-client::cron]"
+  ],
+  "env_run_lists": {
+
+  }
+}

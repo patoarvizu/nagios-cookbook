@@ -1,0 +1,21 @@
+{
+  "json_class": "Chef::Environment",
+  "name": "dev",
+  "chef_type": "environment",
+  "default_attributes": {
+    "chef_client": {
+      "config": {
+        "chef_server_url": "http://10.0.1.2:8889",
+        "validation_client_name": "dummy",
+        "validation_key": "/vagrant/dummy.pem",
+        "client_key": "/vagrant/dummy.pem"
+      }
+    },
+    "nagios": {
+      "kafka-ip-address": "10.0.1.4"
+    }
+  },
+  "override_attributes": {
+
+  }
+}

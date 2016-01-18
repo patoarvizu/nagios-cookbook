@@ -1,0 +1,6 @@
+{
+  "id": "kafka_produce_total_request_time",
+  "hostgroup_name": "kafka",
+  "check_command": "check_nrpe!check_kafka_produce_total_request_time",
+  "servicegroups": "kafka"
+}

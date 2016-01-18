@@ -1,0 +1,6 @@
+{
+  "id": "redshift_disk_space",
+  "hostgroup_name": "aws",
+  "check_command": "check_nrpe!check_redshift_disk_space",
+  "servicegroups": "aws"
+}

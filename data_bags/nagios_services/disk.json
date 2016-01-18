@@ -1,0 +1,6 @@
+{
+  "id": "disk",
+  "hostgroup_name": "all",
+  "check_command": "check_nrpe!check_disk",
+  "servicegroups": "system"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "kafka_message_rate",
+  "hostgroup_name": "kafka",
+  "check_command": "check_nrpe!check_kafka_message_rate",
+  "servicegroups": "kafka"
+}

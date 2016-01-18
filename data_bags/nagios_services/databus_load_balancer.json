@@ -1,0 +1,6 @@
+{
+  "id": "databus_load_balancer",
+  "hostgroup_name": "aws",
+  "check_command": "check_nrpe!check_databus_load_balancer",
+  "servicegroups": "aws"
+}

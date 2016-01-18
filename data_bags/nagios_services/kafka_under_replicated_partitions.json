@@ -1,0 +1,6 @@
+{
+  "id": "kafka_under_replicated_partitions",
+  "hostgroup_name": "kafka",
+  "check_command": "check_nrpe!check_kafka_under_replicated_partitions",
+  "servicegroups": "kafka"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "load",
+  "hostgroup_name": "all",
+  "check_command": "check_nrpe!check_load",
+  "servicegroups": "system"
+}

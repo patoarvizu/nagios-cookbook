@@ -1,0 +1,6 @@
+{
+  "id": "kafka_log_flush_rate",
+  "hostgroup_name": "kafka",
+  "check_command": "check_nrpe!check_kafka_log_flush_rate",
+  "servicegroups": "kafka"
+}

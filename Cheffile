@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'https://supermarket.getchef.com/api/v1'
+
+cookbook 'nagios', path: '.'
+
+cookbook 'nagios', '7.2.4'
+cookbook 'nrpe', '1.5.2'
+cookbook 'chef-client', '4.3.1'
+cookbook 'poise-python', '1.0.0'

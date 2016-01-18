@@ -1,0 +1,6 @@
+{
+  "id": "redshift_cpu_utilization",
+  "hostgroup_name": "aws",
+  "check_command": "check_nrpe!check_redshift_cpu_utilization",
+  "servicegroups": "aws"
+}

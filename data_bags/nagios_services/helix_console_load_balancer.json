@@ -1,0 +1,6 @@
+{
+  "id": "helix_console_load_balancer",
+  "hostgroup_name": "aws",
+  "check_command": "check_nrpe!check_helix_console_load_balancer",
+  "servicegroups": "aws"
+}

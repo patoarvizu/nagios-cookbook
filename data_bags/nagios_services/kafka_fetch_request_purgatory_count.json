@@ -1,0 +1,6 @@
+{
+  "id": "kafka_fetch_request_purgatory_count",
+  "hostgroup_name": "kafka",
+  "check_command": "check_nrpe!check_kafka_fetch_request_purgatory_count",
+  "servicegroups": "kafka"
+}

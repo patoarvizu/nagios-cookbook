@@ -1,0 +1,6 @@
+{
+  "id": "redshift_health_status",
+  "hostgroup_name": "aws",
+  "check_command": "check_nrpe!check_redshift_health_status",
+  "servicegroups": "aws"
+}

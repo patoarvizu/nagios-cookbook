@@ -1,0 +1,6 @@
+{
+  "id": "kafka_partition_count",
+  "hostgroup_name": "kafka",
+  "check_command": "check_nrpe!check_kafka_partition_count",
+  "servicegroups": "kafka"
+}

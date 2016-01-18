@@ -1,0 +1,6 @@
+{
+  "id": "memory",
+  "hostgroup_name": "all",
+  "check_command": "check_nrpe!check_memory",
+  "servicegroups": "system"
+}

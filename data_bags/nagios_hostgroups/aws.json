@@ -1,0 +1,5 @@
+{
+  "search_query": "roles:nagios-solo-client",
+  "hostgroup_name": "aws",
+  "id": "aws"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "kafka_produce_requests_rate",
+  "hostgroup_name": "kafka",
+  "check_command": "check_nrpe!check_kafka_produce_requests_rate",
+  "servicegroups": "kafka"
+}
